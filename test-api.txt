@@ -1,0 +1,12 @@
+npx aws-api-gateway-cli-test \
+--username='catalinp69@outlook.com' \
+--password='C_ondor_1969' \
+--user-pool-id='us-east-1_iUbmtGIIg' \
+--app-client-id='6qfptsett4gdh12nlg7550a7mu' \
+--cognito-region='us-east-1' \
+--identity-pool-id='us-east-1:07f5142c-a211-49b4-8ce6-609a9f5072c2' \
+--invoke-url='https://5adsan0nxj.execute-api.us-east-1.amazonaws.com/dev/notes' \
+--api-gateway-region='us-east-1' \
+--path-template='/notes' \
+--method='POST' \
+--body='{"content":"hello world","attachment":"hello.jpg"}'
